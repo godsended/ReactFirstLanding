@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/Navbar/NavBar';
+import { NavBarItemData } from './Components/Navbar/NavBarItem';
 
 function App() {
+  let navBarItems: NavBarItemData[] = [
+    { title: "Home", href: "#home" },
+    { title: "About Me", href: "#about_me" },
+    { title: "Skills", href: "#skills" },
+    { title: "Portfolio", href: "#portfolio" },
+    { title: "Contacts", href: "#contacts" }
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NavBar items={navBarItems} />
   );
 }
 
