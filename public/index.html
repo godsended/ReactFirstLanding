@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <header class="main-div">
+    <a href="#home" class="header-item">Home</a>
+    <a href="#about_me" class="header-item">About Me</a>
+    <a href="#skills" class="header-item">Skills</a>
+    <a href="#portfolio" class="header-item">Portfolio</a>
+    <a href="#contacts" class="header-item">Contacts</a>
+  </header>
+  <hr />
+  <div id="home" class="business-card main-div">
+    <div class="business-card-name">
+      <div>Ilya</div>
+      <div>Kolesnikov</div>
+    </div>
+    <div class="business-card-in-short">
+      <div>.NET & JS developer</div>
+      <div>19 years old, Minsk</div>
+    </div>
+    <div class="business-card-lang">
+      <div class="business-card-lang-rotate">
+        <a class="business-card-lang-variant">RU</a>
+        |
+        <a class="business-card-lang-variant">ENG</a>
+      </div>
+    </div>
+    <img src="../images/BSPP2266.png" />
+  </div>
+
+  <div id="about_me" class="about-me">
+    <h1>About me</h1>
+    <div>
+      <p>Hi, I'am Ilya - .NET and JS developer from Minsk.<br />I'am interested in programming and everything
+        connected with it.</p>
+    </div>
+    <div>
+      <div>
+        <p>I'am studying at YouTube courses.</p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <p>Ready to implement excellent projects with wonderful people.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="skills" class="skills main-div">
+    <h1>Skills</h1>
+    <div>
+      I work in such programs as
+    </div>
+    <div class="skills-programs">
+      <div class="skills-program">
+        <img src="../images/PS.png" />
+        <p>Adobe<br />Photoshop</p>
+      </div>
+      <div class="skills-program">
+        <img src="../images/AI.png" />
+        <p>Adobe<br />Illustrator</p>
+      </div>
+      <div class="skills-program">
+        <img src="../images/AE.png" />
+        <p>Adobe<br />After Affects</p>
+      </div>
+      <div class="skills-program">
+        <img src="../images/Figma.png" />
+        <p>Figma</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="portfolio">
+    <h1>Portfolio</h1>
+    <div class="portfolio-list">
+      <div class="portfolio-item">
+        <img src="../images/Слой 8.png" />
+        <p>Online fashion store - Homepage</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="../images/reebok_web.png" />
+        <p>Reebok store - Concept</p>
+      </div>
+
+      <div class="portfolio-item">
+        <img src="../images/reebok_web-1.png" />
+        <p>Braun landing page - Concept</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contacts" class="main-div contacts">
+    <h1>Contacts</h1>
+    <div>
+      Wont to know more or just chat?<br>You are welcome!
+    </div>
+    <div>
+      <a>Send message</a>
+    </div>
+  </div>
+</body>
+
+</html>
