@@ -18,101 +18,16 @@ header {
     padding-right: 17%;
     padding-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 .main-div-black {
     padding-left: 17%;
     padding-right: 17%;
-    background-color: rgb(246, 246, 246);
-}
-
-.header-item {
-    font-weight: 700;
-    font-size: 18px;
-    color: rgb(130, 130, 130);
-    cursor: pointer;
-}
-
-.header-item:hover {
-    color: rgb(7, 7, 7);
-}
-
-.header-item-current {
-    color: rgb(7, 7, 7);
-}
-
-.business-card {
-    display: flex;
-    flex-wrap: wrap;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-.business-card img {
-    width: 100%;
-    height: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
-
-.business-card-name {
-    color: rgb(7, 7, 7);
-    font-weight: 700;
-    font-size: 47.34px;
-    margin-right: auto;
-    margin-top: auto;
-}
-
-.business-card-in-short {
-    font-weight: 300;
-    font-size: 18px;
-    color: rgb(7, 7, 7);
-    padding-bottom: 9px;
-    align-self: center;
-    margin-top: auto;
-    margin-right: auto;
-}
-
-.business-card-lang {
-    margin-left: auto;
-    align-self: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: rgb(130, 130, 130);
-}
-
-.business-card-lang-rotate {
-    transform: rotate(-90deg);
-    margin-right: -27px;
-}
-
-.business-card-lang-variant {
-    cursor: pointer;
-}
-
-.business-card-lang-variant:hover {
-    color: rgb(7, 7, 7);
-}
-
-.about-me {
     background-color: rgb(246, 246, 246);
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-}
-
-.about-me h1 {
-    font-weight: 700;
-    font-size: 34px;
-}
-
-.about-me p {
-    font-weight: 500;
-    font-size: 18px;
 }
 
 .skills {
