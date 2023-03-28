@@ -1,0 +1,50 @@
+.me-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.me-card img {
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.me-card-name {
+    color: rgb(7, 7, 7);
+    font-weight: 700;
+    font-size: 47.34px;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.me-card-in-short {
+    font-weight: 300;
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+    padding-bottom: 9px;
+    align-self: center;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.me-card-lang {
+    margin-left: auto;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(130, 130, 130);
+}
+
+.me-card-lang-rotate {
+    transform: rotate(-90deg);
+    margin-right: -27px;
+}
+
+.me-card-lang-variant {
+    cursor: pointer;
+}
+
+.me-card-lang-variant:hover {
+    color: rgb(7, 7, 7);
+}
