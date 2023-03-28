@@ -37,36 +37,6 @@ header {
     text-align: center;
 }
 
-.portfolio {
-    background-color: rgb(246, 246, 246);
-    padding-top: 5%;
-    padding-bottom: 5%;
-    text-align: center;
-}
-
-.portfolio-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.portfolio h1 {
-    font-weight: 700;
-    font-size: 34px;
-    margin-bottom: 7%;
-}
-
-.portfolio-item {
-    font-weight: 500;
-    font-size: 18px;
-    margin: 2%;
-}
-
-.portfolio-item img {
-    margin-bottom: 2%;
-}
-
 .contacts {
     text-align: center;
 }

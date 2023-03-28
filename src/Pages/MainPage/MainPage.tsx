@@ -34,6 +34,17 @@ function MainPage() {
                     <TitledImageCard title={"Figma"} imageSrc="/images/Figma.png" />
                 </div>
             </div>
+            <div className="main-div-black">
+                <h1>Portfolio</h1>
+                <div>
+                    <TitledImageCard class="portfolio-item" title={"Online fashion store - Homepage"} titleClass="portfolio-item-title"
+                    imageSrc="/images/Слой 8.png" />
+                    <TitledImageCard class="portfolio-item" title={"Reebok store - Concept"} titleClass="portfolio-item-title" 
+                    imageSrc="/images/reebok_web.png" />
+                    <TitledImageCard class="portfolio-item" title={"Braun landing page - Concept"} titleClass="portfolio-item-title"
+                    imageSrc="/images/reebok_web-1.png" />
+                </div>
+            </div>
         </div>
     )
 }

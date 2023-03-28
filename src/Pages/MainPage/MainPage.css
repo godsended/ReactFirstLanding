@@ -4,3 +4,13 @@
     align-items: center;
     margin-top: 7%;
 }
+
+.portfolio-item {
+    margin: 5%;
+    font-size: 18px;
+}
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 18px;
+}
